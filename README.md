@@ -38,3 +38,12 @@ Where this documentation conflicts with current source code, configuration, or m
 ## Guiding principle
 
 Each implementation repository should eventually contain its own internal architecture documentation. This repository remains the neutral, system-level map connecting them.
+
+## Immediate TODO list
+
+1. Re-add the 250 hz circular ram buffer dump mode
+2. Test that mode and the new streaming mode on a multi-camera system with triggerbox and treadmill
+3. Write the Processing and Upload tabs to automate processing, sanity check contact sheets, and uploading to GPU storage servers.
+4. Test everything on the real rig at merb
+
+ 
