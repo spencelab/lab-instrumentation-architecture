@@ -53,7 +53,7 @@ Repository URLs should be added once the architecture repository is created. The
 - Trigger pulse generation
 - Treadmill device protocol, unless temporarily colocated during development
 
-## Triggerbox repository
+## `triggerbox_ros2`
 
 **Exact repository name:** Needs verification.
 
@@ -67,7 +67,7 @@ Repository URLs should be added once the architecture repository is created. The
 - Enable/disable services
 - Trigger timing or counter reporting
 
-## Treadmill-control repository
+## `treadmill_control`
 
 **Exact repository name:** Needs verification.
 
@@ -77,6 +77,7 @@ Repository URLs should be added once the architecture repository is created. The
 
 - Device protocol
 - ROS 2 node or API
+- Standalone treadmill control GUI for treadmill only running and testing
 - Safety limits
 - Command and status interfaces
 - Launch files
