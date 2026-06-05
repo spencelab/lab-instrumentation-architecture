@@ -1,0 +1,18 @@
+flowchart TD
+    GUI[camera_control GUI]
+    C1[Camera PC 1\ncambuffer_recorder_ng]
+    C2[Camera PC 2\ncambuffer_recorder_ng]
+    TB[Triggerbox host + firmware]
+    TM[Treadmill control]
+    ST[(Local recording storage)]
+    OFF[Offline conversion and audit]
+
+    GUI --> C1
+    GUI --> C2
+    GUI --> TB
+    GUI --> TM
+    TB -->|hardware trigger| C1
+    TB -->|hardware trigger| C2
+    C1 --> ST
+    C2 --> ST
+    ST --> OFF
